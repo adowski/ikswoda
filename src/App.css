@@ -1,3 +1,9 @@
+.landing-container {
+  height:100vh;
+  min-height:100vh;
+  position: relative;
+}
+
 .intro-container {
   left: 50%;
   top: 50%;
@@ -6,12 +12,38 @@
   transform: translate(-50%, -50%);
 }
 
-.intro {
+.heading {
+  position: absolute;
+  margin-left: 5%;
+  top: 5%;
+}
+
+.timeline {
+  left: 50%;
+  top: 25%;
+  width: 60%;
+  height: 100px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.art-heading {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #ff9901;
+}
+
+/* .intro {
   font-family: p22-mackinac-pro, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-}
+} */
 
 .links {
   font-family: sofia-pro, sans-serif;
@@ -61,6 +93,23 @@
   background-size: auto 6px;
   background-repeat: repeat-x;
   text-decoration: none;
+}
+
+.art-img {
+  z-index: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 500px;
+  height: auto;
+}
+
+.coding-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  height: auto;
 }
 
 /* .App {

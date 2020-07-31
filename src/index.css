@@ -1,11 +1,24 @@
 @import url("https://use.typekit.net/tmf1hpu.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  background-color: #fffced;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, p22-mackinac-pro, 'Garamond', 'Palatino'
     serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: p22-mackinac-pro, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  margin: 0;
 }
 
 code {
