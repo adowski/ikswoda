@@ -1,4 +1,69 @@
-.App {
+.intro-container {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro {
+  font-family: p22-mackinac-pro, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.links {
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link-long {
+  width: 60px;
+  /* overflow-wrap: break-word; */
+}
+
+.link-orange {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+.link-blue {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+.link-orange:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .6s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.link-blue:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .6s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23aaeb00' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +100,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
