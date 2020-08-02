@@ -6,7 +6,7 @@ class TimelineCard extends React.Component {
 		super(props)
 
 		this.state = {
-
+			imgHovered: false,
 		}
 	}
 
@@ -14,18 +14,35 @@ class TimelineCard extends React.Component {
 
 	}
 
+	handleHover() {
+		this.setState({
+			imgHovered: !this.state.imgHovered,
+		})
+	}
+
 	render() {
-			return (
+		return !this.state.imgHovered ? 
 				<div className='timeline-content'>
-					<img className='timeline-img' src={this.props.img} alt='art by Alison'></img>
+					<img 
+						className='timeline-img' 
+						src={this.props.img} 
+						alt='art by Alison'
+						onMouseOver={() => this.handleHover()}
+						// onMouseLeave={() => this.handleHover()}
+					/>
 					<div className='timeline-desc'>
 						<h2 className='timeline-title'>{this.props.title}</h2>
 						<div className='timeline-text'>
 							{this.props.text}
 						</div>
 					</div>
-				</div>
-			)
+				</div> :
+				<img 
+					onMouseLeave={() => this.handleHover()} 
+					className='timeline-img-hover' 
+					src={this.props.img} 
+					alt='art by Alison'
+				/>
 	}
 }
 
