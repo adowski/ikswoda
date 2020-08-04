@@ -1,0 +1,134 @@
+.timeline {
+  left: 50%;
+  top: 25%;
+  width: 60%;
+  height: 100px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 14px;
+  z-index: 3;
+}
+
+.timeline-content {
+  z-index: 3;
+  margin-top: 5%;
+  padding: 2%;
+  top: 25%;
+  width: 50%;
+  left: 22%;
+  /* transform: translate(-22%, 0%); */
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fffced;
+  border: 3px solid #000000;
+}
+
+.timeline-img {
+  width: 40%;
+  max-height: 200px;
+  height: auto;
+  margin: 0% 5%;
+  border: 3px solid #000000;
+  z-index: 3;
+}
+
+.timeline-img-hover {
+  max-width: auto;
+  max-height: 400px;
+  height: auto;
+  margin: 0% 5%;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  /* top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); */
+  border: 3px solid #000000;
+  z-index: 3;
+}
+/* 
+  .timeline-img:hover {
+    width: 100%;
+    position: absolute;
+    height: auto;
+  } */
+
+.fade1-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.fade1-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.fade1-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.fade1-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.fade1-enter-active,
+.fade1-exit-active {
+  transition: opacity 500ms, transform 500ms;
+}
+
+.fade2-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.fade2-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.fade2-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.fade2-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.fade2-enter-active,
+.fade2-exit-active {
+  transition: opacity 500ms, transform 500ms;
+}
+
+.timeline-desc {
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  /* justify-content: space-between; */
+}
+
+.timeline-title {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ff9901;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  z-index: 3;
+}
+
+.timeline-text {
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  z-index: 3;
+}

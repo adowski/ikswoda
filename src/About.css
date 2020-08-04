@@ -1,0 +1,20 @@
+.about-container {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  font-weight: 500;
+}
+
+.about-desc {
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 14px;
+}
