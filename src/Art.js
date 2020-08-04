@@ -23,7 +23,7 @@ const VALUES = [
   "2019-01-20",
   "2019-11-01",
   "2020-01-15",
-  "2020-07-05"
+  // "2020-07-05"
 ];
 const artWords = [
   {
@@ -68,12 +68,12 @@ const artWords = [
       "I absolutely love the show Killing Eve. 100/100 would recommend checking it out. This is a work in progress of a digital painting of Eve and Villanelle -- eventually they'll be standing on top of armored horses.",
     img: eve
   },
-  {
-    title: "Berkeley Misses You",
-    desc:
-      "A drawing for a friend of a view she enjoys on UC Berkeley's campus! To be made into a postcard. Berkeley (and I) really miss everyone during this time. :(",
-    img: postcard
-  }
+  // {
+  //   title: "Berkeley Misses You",
+  //   desc:
+  //     "A drawing for a friend of a view she enjoys on UC Berkeley's campus! To be made into a postcard. Berkeley (and I) really miss everyone during this time. :(",
+  //   img: postcard
+  // }
 ];
 
 class Art extends React.Component {
@@ -154,15 +154,15 @@ class Art extends React.Component {
           />
         );
         break;
-      case 7:
-        content = (
-          <TimelineCard
-            title={artWords[7].title}
-            text={artWords[7].desc}
-            img={artWords[7].img}
-          />
-        );
-        break;
+      // case 7:
+      //   content = (
+      //     <TimelineCard
+      //       title={artWords[7].title}
+      //       text={artWords[7].desc}
+      //       img={artWords[7].img}
+      //     />
+      //   );
+      //   break;
       default:
         break;
     }
