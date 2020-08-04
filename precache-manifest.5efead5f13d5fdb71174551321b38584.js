@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a873f21016c8288c5ab88599b02cc3b2",
+    "revision": "8ea246f819ad522615bcf5edea6c5dac",
     "url": "/ikswoda/index.html"
   },
   {
-    "revision": "4737175e38df391a1aba",
+    "revision": "6f7b85210ee347a5cd3b",
     "url": "/ikswoda/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "c42c54f9b7d46c546e33",
+    "revision": "e896083fef62e471fbdb",
     "url": "/ikswoda/static/css/main.dd575776.chunk.css"
   },
   {
-    "revision": "4737175e38df391a1aba",
-    "url": "/ikswoda/static/js/2.1668f310.chunk.js"
+    "revision": "6f7b85210ee347a5cd3b",
+    "url": "/ikswoda/static/js/2.6adbc6e6.chunk.js"
   },
   {
     "revision": "846e3710ca5ee3f911296f05447fe08c",
-    "url": "/ikswoda/static/js/2.1668f310.chunk.js.LICENSE.txt"
+    "url": "/ikswoda/static/js/2.6adbc6e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c42c54f9b7d46c546e33",
-    "url": "/ikswoda/static/js/main.b8bad909.chunk.js"
+    "revision": "e896083fef62e471fbdb",
+    "url": "/ikswoda/static/js/main.ebfdc844.chunk.js"
   },
   {
     "revision": "9653c84c9de136d97239",
